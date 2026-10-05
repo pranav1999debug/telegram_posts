@@ -1,0 +1,23 @@
+{
+  "name": "telegram-posts-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram content intake, media hosting, AI captioning, Supabase storage, and channel publishing bot",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "dotenv": "^17.2.2",
+    "grammy": "^1.38.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.9.2"
+  }
+}
